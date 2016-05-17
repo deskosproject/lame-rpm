@@ -1,6 +1,6 @@
 Name:           lame
 Version:        3.99.5
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Free MP3 audio compressor
 
 Group:          Applications/Multimedia
@@ -116,6 +116,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/mp3x
 
 %changelog
+* Sat May 14 2016 Ricardo Arguello <rarguello@deskosproject.org> - 3.99.5-3
+- Rebuilt for DeskOS
+
 * Sun Mar 03 2013 Nicolas Chauvet <kwizart@gmail.com> - 3.99.5-2
 - Mass rebuilt for Fedora 19 Features
 
